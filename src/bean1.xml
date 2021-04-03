@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--配置User类对象创建-->
+    <bean id="user" class="com.spring5.User"></bean>
+
+    <!--1.set方法注入属性-->
+    <bean id="book" class="com.spring5.Book">
+        <!--使用property完成属性注入-->
+        <property name="bName" value="0 to 1"></property>
+        <!--向属性注入null值-->
+        <!--        <property name="address">
+                    <null/>
+                </property>-->
+        <!--属性值中包含特殊符号 CDATA-->
+        <property name="address">
+            <value>
+                <![CDATA[<<<Shanghai>>>]]>
+            </value>
+        </property>
+    </bean>
+
+    <!--2.有参构造器注入属性-->
+    <bean id="order" class="com.spring5.Order">
+        <constructor-arg name="oname" value="dj20210577731"></constructor-arg>
+        <constructor-arg index="1" value="Peking"></constructor-arg>
+    </bean>
+
+    <bean id="book1" class="com.spring5.Book" p:bName="0000">
+    </bean>
+
+
+</beans>

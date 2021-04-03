@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/webfluxdemo2/.mvn/.mvn.iml" filepath="$PROJECT_DIR$/webfluxdemo2/.mvn/.mvn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demoreactor/demoreactor.iml" filepath="$PROJECT_DIR$/demoreactor/demoreactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demowebflux/demowebflux.iml" filepath="$PROJECT_DIR$/demowebflux/demowebflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webfluxdemo2/src/main/main.iml" filepath="$PROJECT_DIR$/webfluxdemo2/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5_demo1.iml" filepath="$PROJECT_DIR$/spring5_demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5_demo2/spring5_demo2.iml" filepath="$PROJECT_DIR$/spring5_demo2/spring5_demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5_demo3/spring5_demo3.iml" filepath="$PROJECT_DIR$/spring5_demo3/spring5_demo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5_demo4/spring5_demo4.iml" filepath="$PROJECT_DIR$/spring5_demo4/spring5_demo4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5_demo5/spring5_demo5.iml" filepath="$PROJECT_DIR$/spring5_demo5/spring5_demo5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webfluxdemo2/src/test/test.iml" filepath="$PROJECT_DIR$/webfluxdemo2/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webfluxdemo2/webfluxdemo2.iml" filepath="$PROJECT_DIR$/webfluxdemo2/webfluxdemo2.iml" />
+    </modules>
+  </component>
+</project>
